@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'open-sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('./OpenSans-Regular.woff2') format('woff2');
+}
+
+body {
+  background-color: #d2d2d2;
+  display: grid;
+  justify-content: center;
+  font-family: 'open sans';
+  color: blue;
+}
+
+.product-list {
+  display: grid;
+  width: 100%;
+}
+
+.main-body{
+  width: auto;
+  height: auto;
+  display: grid;
+  margin-top: 100px;
+}
+.outer-part{
+  border: 1px solid black;
+}
+.rooms{
+  margin: 20px;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+.audults{
+  margin: 20px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+.children{
+  margin: 20px;
+  padding: 10px;
+}
+.padding-right{
+  padding-right: 10px;
+}
+.left-side{
+  width: 60%;
+  position: relative;
+  left:0px;
+}
+.right-side{
+  position: relative;
+  float: right;
+}
+.minus-button{
+  border-radius: 50%;
+  background: red;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+.plus-button{
+  border-radius: 50%;
+  background: blue;
+  color: white;
+  border: none;
+  margin-left: 10px;
+}
+.label{
+  margin-left: 10px;
+  margin-right: 50px;
+}
+label{
+  color:#7a7ae4;
+}
+.bold-font{
+  font-size: 20px;
+  font-weight: 600;
+  color: #7a7ae4;
+}
+.font-color{
+  color: #7a7ae4;
+}
+.fa-bed:before{
+color: #7a7ae4 !important;
+}
+.fa-user-alt:before{
+color: #7a7ae4 !important;
+}
+.fa-child:before{
+  color: #7a7ae4 !important;
+}
+.fa-users:before{
+  color: #7a7ae4 !important;
+
+}
